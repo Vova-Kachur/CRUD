@@ -9,7 +9,7 @@
     "build": "parcel build src/index.html --public-url /CRUD/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "server": "npx json-server students.json"
+    "server": "npx json-server db.json"
   },
   "repository": {
     "type": "git",
